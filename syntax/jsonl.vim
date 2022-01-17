@@ -7,8 +7,6 @@ if !exists("main_syntax")
   let main_syntax = 'jsonl'
 endif
 
-echo "hoge"
-
 runtime syntax/json.vim
 
 syntax clear jsonMissingCommaError
